@@ -13,7 +13,9 @@
 <body>
     
     <a-scene>
+        
         <rw-room position="-2 0 -2" material="color:grey">
+            
             <rw-wall position="4 0 0"></rw-wall>
             <rw-wall position="4 0 4"></rw-wall>
             <rw-wall position="0 0 4"></rw-wall>
@@ -21,6 +23,8 @@
           		<rw-doorhole id="holeA"></rw-doorhole>
           		<rw-doorlink from="#holeA" to="#holeB" position="2.5 0 0"></rw-doorlink>
             </rw-wall>
+            <rw-floor material="color: black"></rw-floor>
+            <rw-ceiling material="color:grey" ceiling> </rw-ceiling>
         </rw-room>
         <rw-room position="0 0 -3">
             <rw-wall position=" 1 0 -1" material="color:blue"></rw-wall>
@@ -29,6 +33,8 @@
             </rw-wall>
             <rw-wall position="-1 0  1" material="color:blue"></rw-wall>
             <rw-wall position="-1 0 -1" material="color:blue"></rw-wall>
+            <rw-floor material="color: black"></rw-floor>
+            <rw-ceiling material="color:blue" ceiling> </rw-ceiling>
         </rw-room>
     </a-scene>
 </body>
